@@ -7,7 +7,7 @@ public class Word {
         String[] list = s.split("\\s+");
         int i;
         int j;
-        for (i = 0; i < list.length; i++ {
+        for (i = 0; i < list.length; i++) {
             for (j = 0; j < list[i].length(); j++) {
                 char a = list[i].charAt(j);
                 if (Character.isUpperCase(a) | Character.isLowerCase(a)) {
